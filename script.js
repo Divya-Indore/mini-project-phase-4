@@ -2,7 +2,7 @@ const input = document.getElementById("input");
 const btn = document.getElementById("btn");
 const response = document.getElementById("response");
 
-const API_KEY = "AIzaSyCLdPWCGavhMKtPalD7J5SVrYunMm933zk";
+const API_KEY = "";
 const API_URL = `https://v2.jokeapi.dev/joke/Any?apikey=${API_KEY}`;
 
 const getJoke = () => {
